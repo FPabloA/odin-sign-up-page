@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    border-style: solid;
+    margin: 0;
+}
+
+.logo-area {
+    flex: 1;
+    border-color: red;
+    border-style: solid;
+}
+
+.right-side-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border-color: green;
+    border-style: solid;
+}
+
+.right-text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    border-color: orange;
+    border-style: solid;
+}
+
+.right-form-section {
+    flex: 1;
+    border-color: purple;
+    border-style: solid;
+}
+
+.right-create-account {
+    flex: 1;
+    border-color: yellow;
+    border-style: solid;
+}
