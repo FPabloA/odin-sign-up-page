@@ -54,15 +54,43 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 28px;
     border-color: orange;
     border-style: solid;
+    justify-content: flex-end;
+}
+
+.right-text-top,
+.right-text-bottom {
+    margin-left: 5%;
+    max-width: 60%;
+}
+
+.right-text-top {
+    margin-bottom: 25px;
+}
+
+.right-text-bottom {
+    margin-bottom: 75px;
 }
 
 .right-form-section {
     flex: 1;
     border-color: purple;
     border-style: solid;
+}
+
+.form-wrapper {
+    display: flex;
+}
+
+.form-col {
+    flex: 1;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
 }
 
 .right-create-account {
