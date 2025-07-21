@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 html, body {
     height: 100%;
 }
@@ -10,16 +15,39 @@ body {
 
 .logo-area {
     flex: 1;
-    border-color: red;
-    border-style: solid;
+
+}
+
+.logo-background {
+    height: 100%;
+    max-width: 100%;
+}
+
+.logo-banner {
+    font-family: norse-bold;
+    display: flex;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 64px;
+    top: 25%;
+    width: 33.2%;
+    opacity: 75%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-odin {
+    height: 10%;
+    width: 10%;
 }
 
 .right-side-wrapper {
     flex: 2;
     display: flex;
     flex-direction: column;
-    border-color: green;
-    border-style: solid;
+
 }
 
 .right-text-wrapper {
