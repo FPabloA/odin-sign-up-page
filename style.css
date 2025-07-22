@@ -113,7 +113,7 @@ input:focus {
 }
 
 .password-input:invalid {
-    border: red;
+    border-color: red;
 }
 
 .form-item {
