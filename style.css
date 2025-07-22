@@ -22,6 +22,11 @@ input {
     padding: 6px;
 }
 
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
 input:focus {
     border-width: 1px;
     box-shadow: 0 6px 2px -2px gray;
@@ -70,6 +75,7 @@ input:focus {
     flex-direction: column;
     font-size: 28px;
     justify-content: flex-end;
+    background-color: #dadadb63;
 }
 
 .right-text-top,
@@ -88,8 +94,7 @@ input:focus {
 
 .right-form-section {
     flex: 1;
-    border-color: purple;
-    border-style: solid;
+    box-shadow: 0 6px 2px -2px gray;
 }
 
 .right-form-section-text {
@@ -121,6 +126,22 @@ input:focus {
 
 .right-create-account {
     flex: 1;
-    border-color: yellow;
-    border-style: solid;
+    background-color: #dadadb63;
+}
+
+.submit-button {
+    background-color: #596D48;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    padding: 10px 35px;
+    border-radius: 9px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.login-text {
+    margin-left: 5%;
+    font-size: 18px;
+    margin-top: 25px;
 }
